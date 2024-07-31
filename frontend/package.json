@@ -1,0 +1,53 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "@azure/identity": "^4.2.0",
+    "@azure/web-pubsub": "^1.1.1",
+    "@tanstack/react-query": "^5.39.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@ui5/webcomponents": "^1.24.3",
+    "@ui5/webcomponents-fiori": "^1.24.3",
+    "@ui5/webcomponents-icons": "^1.24.3",
+    "@ui5/webcomponents-react": "^1.28.1",
+    "axios": "^1.6.8",
+    "localforage": "^1.10.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-modal": "^3.16.1",
+    "react-paginate": "^8.2.0",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.8",
+    "swr": "^2.2.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
