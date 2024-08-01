@@ -28,7 +28,7 @@ jobs:
               run: |
                 cd frontend
                 pwd
-                npm run build
+                npm run build --no-warnings
 
             - name: Check if build folder present
               run: |
