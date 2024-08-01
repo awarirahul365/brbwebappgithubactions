@@ -34,4 +34,14 @@ jobs:
               run: |
                 cd frontend
                 ls
+
+            - name: Move build file from frontend to backedn
+              run: |
+                mv ./frontend/build ./backend
+            
+            - name: Check build folder in backend
+              run: |
+                cd backend
+                ls
+            
             
